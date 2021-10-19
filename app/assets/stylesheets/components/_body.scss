@@ -9,6 +9,11 @@
   margin: 0 auto;
 }
 
+.content-dark {
+  background-color: $medium-blue;
+  color: white;
+}
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 320px) {
   .content {
