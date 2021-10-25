@@ -12,6 +12,28 @@
   width: 40px;
 }
 
+.nav-link {
+  color: white !important;
+  font-size: 20px;
+}
+
+.navbar {
+  .home {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+
+    img{
+      width: 40px;
+      margin-right: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      font-family: "Montserrat";
+    }
+  }
+}
+
 // Smallest device
 @media (max-width: 768px) {
   .navbar-lewagon {
