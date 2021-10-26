@@ -1,1 +1,37 @@
 // Specific CSS for your home-page
+// Banner
+
+// Présentation
+.container-invest-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.card-invest-type {
+  border-radius: 4px;
+  padding: 8px;
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      height: 40px;
+    }
+  }
+}
+
+.rocket-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 48px;
+}
+.rocket {
+  max-height: 300px;
+}
+
+// Offre
+// Localisation

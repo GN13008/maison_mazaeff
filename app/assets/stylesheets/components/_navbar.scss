@@ -14,13 +14,27 @@
 
 .nav-link {
   color: white !important;
-  font-size: 20px;
+  font-size: 18px;
+  border-radius: 40px;
+  padding: 8px 16px !important;
+  margin: 8px;
+  transition: all 0.3s ease
+}
+
+.inscription {
+  border: solid 2px;
+  border-color: $flash;
+}
+
+.nav-link:hover {
+  background-color: $flash;
+  opacity:0.8;
 }
 
 .navbar {
   .home {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     color: white;
 
     img{
@@ -30,7 +44,11 @@
     h1 {
       font-size: 32px;
       font-family: "Montserrat";
+      margin: 0;
     }
+  }
+  .home:hover {
+    color: $flash;
   }
 }
 

@@ -1,5 +1,6 @@
 // Define variables for your color scheme
 $dark-blue:#161B33;
+$ligh-gray:#D9DCDF;
 $medium-blue:#2D3A44;
 $font-dark:#161B33;
 $flash: #fdb813;
@@ -12,3 +13,12 @@ $orange: #E67E22;
 $green: #1EDD88;
 $gray: #0E0000;
 $light-gray: #F4F4F4;
+
+// font
+.flash-color {
+  color: $flash;
+}
+
+.bck-ligh-gray {
+  background-color: $ligh-gray;
+}
