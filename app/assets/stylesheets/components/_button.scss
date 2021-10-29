@@ -3,9 +3,7 @@
 }
 
 .btn-flat {
-  color: white;
   border: solid 2px;
-  border-color: white;
   padding: 8px 32px;
   border-radius: 32px;
   font-size: 18px;
@@ -14,8 +12,27 @@
 }
 
 .btn-flat:hover {
-  color: $medium-blue;
-  background-color: white;
   opacity: 1;
   text-decoration: none;
 }
+
+.btn-white {
+  color: white;
+  border-color: white;
+}
+
+.btn-white:hover {
+  color: $medium-blue;
+  background-color: white;
+}
+
+.btn-blue {
+  color: $medium-blue;
+  border-color: $medium-blue;
+}
+
+.btn-blue:hover {
+  color: white;
+  background-color: $medium-blue;
+}
+
