@@ -11,6 +11,13 @@
   margin-top: 8px;
   margin-bottom: 8px;
 }
+.grid-4-2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
 .grid-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;

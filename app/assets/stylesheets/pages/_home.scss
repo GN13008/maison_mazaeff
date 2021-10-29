@@ -43,5 +43,21 @@
   margin: 32px 0;
 }
 
+.methode {
+  border-radius: 4px;
+  padding: 8px;
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    img {
+      height: 40px;
+      margin-right: 8px;
+    }
+  }
+}
+
 // Offre
 // Localisation
