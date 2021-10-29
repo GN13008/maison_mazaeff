@@ -60,4 +60,15 @@
 }
 
 // Offre
+
+.icone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  img {
+    height: 40px;
+    margin-right: 8px;
+  }
+}
 // Localisation
